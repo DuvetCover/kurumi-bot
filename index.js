@@ -41,8 +41,8 @@ fs.readdir("./commands/", (err, files) => {
 bot.on("ready" , asnyc  => {
   console.log(`${bot.user.username} is online on ${bot.guilds.size} servers!`);
 
-  bot.user.setActivity("デート・ア・ライブ", {type: "WATCHING"});
-  //bot.user.setActivity("with Duvet-sama uwu", {type: "PLAYING"});
+  //bot.user.setActivity("デート・ア・ライブ", {type: "WATCHING"});
+  bot.user.setActivity("with Duvet-sama uwu", {type: "PLAYING"});
 
 });
 
