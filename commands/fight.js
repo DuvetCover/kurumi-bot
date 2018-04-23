@@ -11,7 +11,6 @@ module.exports.run = async (bot, message, args) => {
    };
  }
    
-   if (xp[message.author.id].level < 5) return message.reply(`you must be at level 5 to start fights!`)
    if (coins[message.author.id].coins < 100) return message.reply(`You must have at least 100 coins to fight!`)
    
    
